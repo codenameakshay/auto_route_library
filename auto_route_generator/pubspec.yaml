@@ -16,7 +16,10 @@ dependencies:
   dart_style: ^2.2.0
   auto_route:
 #    ^3.0.0
-    path: ../auto_route
+    # path: ../auto_route
+    git:
+      url: https://github.com/codenameakshay/auto_route_library.git
+      path: auto_route/
 
 
 dev_dependencies:
